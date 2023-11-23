@@ -1,3 +1,8 @@
+<?php
+    include("connection.php");
+    error_reporting(0);
+?>
+
 <!DOCTYPE html>
 <!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
@@ -176,3 +181,20 @@
     </body>
 
 </html>
+
+<?php
+    $nm=$_GET['name'];
+    $ml=$_GET['mail'];
+    $ph=$_GET['phone'];
+    $qy=$_GET['query'];
+
+    $query= "INSERT INTO contactus VALUES('$nm','$ml','$ph','$qy')";
+    $data= mysqli_query($conn,$query);
+
+        if($data){
+            echo "Data inserted into database";
+        }
+        else {
+            echo "Failed to insert data into database";
+        }
+?>
