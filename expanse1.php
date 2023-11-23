@@ -220,9 +220,9 @@
 
     <nav class="site-navigation">
        <ul class="nav">
-       <li><a href="homepage1.html">Home</a></li>       
-       <li><a href="aboutpage.html">About</a></li>      
-       <li><a href="contactus.html">Contact</a></li>
+       <li><a href="homepage2.php">Home</a></li>       
+       <li><a href="aboutpage1.php">About</a></li>      
+       <li><a href="contactus.php">Contact</a></li>
       </ul>
     </nav>
 
