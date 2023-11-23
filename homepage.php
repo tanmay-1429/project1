@@ -134,9 +134,9 @@
 
             <nav class="site-navigation">
                 <ul class="nav">
-                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="homepage.php">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="contactus.html">Contact</a></li>               
+                    <li><a href="contactus.php">Contact</a></li>               
                 </ul>            
             </nav>       
         </header>
@@ -147,7 +147,7 @@
                <h3>Hi, <span>user</span></h3>               
                <h1>welcome </h1>               
                <p>this is a Homepage page</p>              
-               <a href="rahul1.php" class="btn">login</a>               
+               <a href="login1.php" class="btn">login</a>               
                <a href="registration1.php" class="btn">register</a>               
                <a href="login1.php" class="btn">logout</a>            
             </div>        
